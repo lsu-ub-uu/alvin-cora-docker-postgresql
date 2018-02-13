@@ -63,7 +63,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <imageName>cora-docker-postgresql</imageName>
+                    <imageName>alvin-cora-docker-postgresql</imageName>
                     <dockerDirectory>docker</dockerDirectory>
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
