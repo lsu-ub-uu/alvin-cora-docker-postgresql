@@ -10,7 +10,7 @@ docker run --name alvin-cora-postgresql-alvin -d --restart always \
   -e POSTGRES_DB=alvin \
   -e POSTGRES_USER=alvin \
   -e POSTGRES_PASSWORD=alvin \
-  -v alvin_cora_postgres_alvin_data:/var/lib/postgresql \
+  -v alvin-cora-postgres-alvin-data:/var/lib/postgresql \
   -v /etc/localtime:/etc/localtime:ro \
   -v /etc/timezone:/etc/timezone:ro \
   -v /dev/urandom:/dev/random \
