@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-TABLES="country language"
+TABLES="country language historicCountry"
 
 for TABLE in $TABLES
 do
