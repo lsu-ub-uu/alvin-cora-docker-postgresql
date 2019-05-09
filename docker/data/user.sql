@@ -155,6 +155,16 @@ COPY alvin_role (id, lastupdated, name, group_id, roletype_id, user_id) FROM std
 72	2014-04-17 10:12:52.893	ADMIN	54	\N	53
 73	2014-04-17 10:12:52.893	ADMIN	52	\N	53
 74	2014-04-17 10:12:52.893	ADMIN	51	\N	53
+75	2014-04-17 10:12:52.893	ADMIN	53	\N	54
+76	2014-04-17 10:12:52.893	ADMIN	50	\N	54
+77	2014-04-17 10:12:52.893	ADMIN	54	\N	54
+78	2014-04-17 10:12:52.893	ADMIN	52	\N	54
+79	2014-04-17 10:12:52.893	ADMIN	51	\N	54
+80	2014-04-17 10:12:52.893	ADMIN	53	\N	55
+81	2014-04-17 10:12:52.893	ADMIN	50	\N	55
+82	2014-04-17 10:12:52.893	ADMIN	54	\N	55
+83	2014-04-17 10:12:52.893	ADMIN	52	\N	55
+84	2014-04-17 10:12:52.893	ADMIN	51	\N	55
 \.
 
 --
@@ -173,6 +183,8 @@ COPY alvin_seam_user (id, lastupdated, domain, email, firstname, lastname, useri
 1	2014-04-17 10:12:52.806	uu	user1.usersson@ub.uu.se	User	One	user1
 52	2014-04-17 10:12:52.87	uu		User	Fiftytwo	user52
 53	2014-04-17 10:12:52.893	uu		User	Fiftythree 	user53
+54	2014-04-17 10:12:52.893	uu		User	Fiftythree2 	maken168
+55	2014-04-17 10:12:52.893	uu		User	Fiftythree3 	olfel499
 \.
 
 
