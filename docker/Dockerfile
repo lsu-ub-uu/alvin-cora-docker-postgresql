@@ -1,4 +1,4 @@
-FROM cora-docker-postgresql-9.6
+FROM cora-docker-postgresql:9.6
 
 USER root
 
