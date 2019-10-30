@@ -60,8 +60,8 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<configuration>
 					<contextDirectory>${outputDirectory}</contextDirectory>
-					<repository>${project.artifactId}</repository>
-					<tag>${project.version}</tag>
+					<repository>${project.artifactId}-9.6</repository>
+<!-- 					<tag>${project.version}</tag> -->
 					<pullNewerImage>false</pullNewerImage>
 				</configuration>
 			</plugin>
