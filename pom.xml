@@ -61,7 +61,6 @@
 				<configuration>
 					<contextDirectory>${outputDirectory}</contextDirectory>
 					<repository>${project.artifactId}-9.6</repository>
-<!-- 					<tag>${project.version}</tag> -->
 					<pullNewerImage>false</pullNewerImage>
 				</configuration>
 			</plugin>
